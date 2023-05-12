@@ -7,7 +7,7 @@ import { Form, Button, FormGroup, FormControl, ControlLabel } from "react-bootst
 
 export default function Singup(props) {
 
-    const url = "http://localhost:4000/signup"
+    const url = "https://aesb.onrender.com/signup"
     const naviagte=useNavigate();
     const [status, setStatus] = useState("");
     
