@@ -19,7 +19,7 @@ export default function Decrypted() {
 
   const onDecClick = (e)=>{
     e.preventDefault()
-       axios.post('http://localhost:4000/decrypt',{
+       axios.post('https://aesb.onrender.com/decrypt',{
         decData:data,
         id:window.localStorage.getItem('userid'),
        }).then((res)=>{
