@@ -22,7 +22,7 @@ export default function Encrypted() {
 
   const onEncClick = (e)=>{
     e.preventDefault()
-       axios.post('http://localhost:4000/encrypt',{
+       axios.post('https://aesb.onrender.com/encrypt',{
         encData:data,
         id: window.localStorage.getItem('userid'),
        }).then((res)=>{
